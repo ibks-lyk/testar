@@ -1,0 +1,30 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Ionic Blank
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div id="ionball"></div>
+
+    <ion-fab right top small>
+        <button ion-fab color="light">
+            <ion-icon name="switch"></ion-icon>
+        </button>
+    </ion-fab>
+
+    <ion-fab left top small>
+        <button ion-fab color="light">
+            <ion-icon name="exit"></ion-icon>
+        </button>
+    </ion-fab>
+
+    <ion-fab right bottom small>
+        <button (click)="refresh()" ion-fab color="light">
+            <!--<ion-icon name="archive"></ion-icon>-->
+            <img src="assets/imgs/sticker002.png" />
+        </button>
+    </ion-fab>
+</ion-content>
